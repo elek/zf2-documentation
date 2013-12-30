@@ -92,7 +92,7 @@ message to it.
            ->setSubject('Greetings and Salutations!')
            ->setBody("Sorry, I'm going to be late today!");
 
-   // Setup SMTP transport using LOGIN authentication
+   // Setup File transport
    $transport = new FileTransport();
    $options   = new FileOptions(array(
        'path'              => 'data/mail/',
